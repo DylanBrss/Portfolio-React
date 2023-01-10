@@ -43,4 +43,4 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 https://www.youtube.com/watch?v=3aCoZudPEKE
 
-**Time code : 00:31:32**
+**Time code : 01:14:10**
