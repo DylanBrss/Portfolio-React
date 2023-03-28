@@ -9,31 +9,31 @@ const Footer = () => {
 
                 <ul className="footer__list">
                     <li>
-                        <a href="#about" className="footer__link">About</a>
+                        <a href="#about" className="footer__link">A Propos</a>
                     </li>
 
                     <li>
-                        <a href="#projects" className="footer__link">Projects</a>
+                        <a href="#projects" className="footer__link">Projets</a>
                     </li>
 
                     <li>
-                        <a href="#testimonials" className="footer__link">Testimonials</a>
+                        <a href="#skills" className="footer__link">Technologies</a>
                     </li>
                 </ul>
 
                 <div className="footer__social">
-                    <a href="https://www.facebook.com/" className="footer__social-link" target="_blank">
-                        <i className="bx bxl-facebook"></i>
+                    <a href="https://www.linkedin.com/in/dylan-brisseau-7a2a18239/" target="_blank" className="footer__social-link" target="_blank">
+                        <i className="bx bxl-linkedin"></i>
                     </a>
-                    <a href="https://instagram.com/" className="footer__social-link" target="_blank">
-                        <i className="bx bxl-instagram"></i>
+                    <a href="https://github.com/DylanBrss" target="_blank" className="footer__social-link" target="_blank">
+                        <i className="bx bxl-github"></i>
                     </a>
-                    <a href="https://twitter.com/" className="footer__social-link" target="_blank">
-                        <i className="bx bxl-twitter"></i>
+                    <a href="mailto:dylanbrisseau79@gmail.com" className="footer__social-link" target="_blank">
+                        <i className="bx bx-envelope"></i>
                     </a>
                 </div>
 
-                <span className="footer__copy">&#169; Annox. All rigths reserved</span>
+                <span className="footer__copy">&#169; Dylan Brisseau. Touts droits réservés</span>
             </div>
         </footer>
     )

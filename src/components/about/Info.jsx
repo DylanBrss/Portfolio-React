@@ -5,7 +5,7 @@ const Info = () => {
         <div className="about__info grid">
             <div className="about__box">
                 <i className="bx bx-award about__icon"></i>
-                <h3 className="about__title">Experience</h3>
+                <h3 className="about__title">Expériences</h3>
                 <span className="about__subtitle">8 Years Working</span>
             </div>
 

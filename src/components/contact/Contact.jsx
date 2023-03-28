@@ -13,12 +13,12 @@ const Contact = () => {
     };
     return (
         <section className="contact section" id="contact">
-            <h2 className="section__title">Get in touch</h2>
-            <span className="section__subtitle">Contact Me</span>
+            <h2 className="section__title">Entrer en contact</h2>
+            <span className="section__subtitle">Contactez Moi</span>
 
             <div className="contact__container container grid">
                 <div className="contact__content">
-                    <h3 className="contact__title">Talk to me</h3>
+                    <h3 className="contact__title">Parle-moi</h3>
 
                     <div className="contact__info">
                         <div className="contact__card">
@@ -27,29 +27,29 @@ const Contact = () => {
                             <h3 className="contact__card-title">Email</h3>
                             <span className="contact__card-data">user@gmail.com</span>
 
-                            <a href="" className="contact__button">Write me{" "}
+                            <a href="mailto:dylanbrisseau79@gmail.com" target='_blank' className="contact__button">Écrivez-moi{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
 
                         <div className="contact__card">
-                            <i className="bx bxl-whatsapp contact__card-icon"></i>
+                            <i className="bx bxs-phone-call contact__card-icon"></i>
 
-                            <h3 className="contact__card-title">Whatsapp</h3>
-                            <span className="contact__card-data">999-888-777</span>
+                            <h3 className="contact__card-title">Téléphone</h3>
+                            <span className="contact__card-data">01-02-03-04-05</span>
 
-                            <a href="https://api.whatsapp.com/send?phone=62214408789&text=Hello, more information!" className="contact__button">Write me{" "}
+                            <a href="" target="_blank" className="contact__button">Appeler moi{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
 
                         <div className="contact__card">
-                            <i className="bx bxl-messenger contact__card-icon"></i>
+                            <i className="bx bxl-linkedin-square contact__card-icon"></i>
 
-                            <h3 className="contact__card-title">Messenger</h3>
-                            <span className="contact__card-data">user.fb123</span>
+                            <h3 className="contact__card-title">Linkedin</h3>
+                            <span className="contact__card-data">user-1234</span>
 
-                            <a href="https://m.me/crypticalcoder" className="contact__button">Write me{" "}
+                            <a href="https://www.linkedin.com/in/dylan-brisseau-7a2a18239/" target="_blank" className="contact__button">Écriver-moi{" "}
                                 <i className="bx bx-right-arrow-alt contact__button-icon"></i>
                             </a>
                         </div>
@@ -57,26 +57,26 @@ const Contact = () => {
                 </div>
 
                 <div className="contact__content">
-                    <h3 className="contact__title">Write me your project</h3>
+                    <h3 className="contact__title">Écrivez-moi votre projet</h3>
 
                     <form ref={form} onSubmit={sendEmail} className="contact__form">
                         <div className="contact__form-div">
-                            <label className="contact__form-tag">Name</label>
-                            <input type="text" name="name" className="contact__form-input" placeholder="Insert your name"></input>
+                            <label className="contact__form-tag">Nom</label>
+                            <input type="text" name="name" className="contact__form-input" placeholder="Insérez votre nom"></input>
                         </div>
 
                         <div className="contact__form-div">
-                            <label className="contact__form-tag">Mail</label>
-                            <input type="email" name="email" className="contact__form-input" placeholder="Insert your email"></input>
+                            <label className="contact__form-tag">Email</label>
+                            <input type="email" name="email" className="contact__form-input" placeholder="Insérez votre email"></input>
                         </div>
 
                         <div className="contact__form-div contact__form-area">
-                            <label className="contact__form-tag">Project</label>
-                            <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder="Write yoour project"></textarea>
+                            <label className="contact__form-tag">Projet</label>
+                            <textarea name="project" cols="30" rows="10" className="contact__form-input" placeholder="Écrivez votre projet"></textarea>
                         </div>
 
                         <button className="button button--flex">
-                            Send Message
+                            Evoyer le message
                             <svg
                                 class="button__icon"
                                 xmlns="http://www.w3.org/2000/svg"
