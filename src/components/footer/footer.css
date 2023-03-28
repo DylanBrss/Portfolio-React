@@ -17,6 +17,10 @@
     margin-bottom: var(--mb-2);
 }
 
+.footer__title img {
+    width: 100px;
+}
+
 .footer__link {
     color: var(--title-color);
 }

@@ -60,8 +60,13 @@
     transition: 0.3s;
 }
 
+.contact__button:hover {
+    color: #333;
+}
+
 .contact__button:hover .contact__button-icon {
     transform: translate(0.25rem);
+    color: #333;
 }
 
 .contact__form {

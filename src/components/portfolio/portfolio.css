@@ -1,51 +1,282 @@
 .portfolio__container {
-    overflow: initial;
-    grid-template-columns: repeat(3, 450px);
-    column-gap: 3rem;
-    justify-content: center;
+  overflow: initial;
+  grid-template-columns: repeat(3, 500px);
+  column-gap: 3rem;
+  justify-content: center;
 }
 
 .portfolio__content {
-    background-color: var(--container-color);
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1rem 2rem;
-    border-radius: 5px;
+  background-color: var(--container-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
 }
 
+.portfolio__content .icon {
+  display: flex;
+  justify-content: center;
+  height: 270px;
+  width: 500px;
+  background-color: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  transition: opacity 1s;
+  border-radius: 5px;
+}
+
+.portfolio__content .icon:hover {
+  display: flex;
+  opacity: 1;
+}
+
+.portfolio__content i {
+  font-size: 60px;
+  bottom: 10px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.cinerama {
+  background: url("../../assets/Cinerama.PNG");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.komewaza {
+  background: url("../../assets/KomeWaza.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.zanzibar {
+  background: url("../../assets/Zanzibar.PNG");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.thebootstrap {
+  background: url("../../assets/ThéBootstrap.PNG");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.travel_blog {
+  background: url("../../assets/Travel_Blog.PNG");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.traveltheworld {
+  background: url("../../assets/TravelTheWorld.PNG");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* ---------------------------------------------------- */
+
+.services__modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: var(--z-modal);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.3s;
+}
+
+.services__modal-content {
+  width: 500px;
+  position: relative;
+  background-color: var(--container-color);
+  padding: 4.5rem 2.5rem 2.5rem;
+  border-radius: 1.5rem;
+}
+
+.services__modal-content .services__modal-close {
+  position: absolute;
+  font-size: 24px;
+  color: #333;
+  cursor: pointer;
+}
+
+.services__modal-title {
+  text-align: center;
+}
+
+.services__modal-description {
+  text-align: left;
+}
+.services__modal-img {
+  border: 3px solid #000;
+}
+
+.services__modal-title {
+  font-size: var(--h3-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: var(--mb-1);
+  margin-top: 10px;
+}
+
+.services__modal-description {
+  font-size: var(--small-font-size);
+  padding: 0;
+  margin-bottom: var(--mb-2);
+  line-height: 25px;
+}
+
+.services__modal-techno {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-normal);
+  margin-bottom: var(--mb-1);
+  color: var(--title-color-dark);
+}
+
+.services__modal-techno #techno1,
+#techno2,
+#techno3,
+#techno4 {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-normal);
+  background-color: #d4d4d4;
+  color: #333;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.services__modal-service {
+  row-gap: 0.75rem;
+}
+
+.services__modal-service {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+}
+
+.services__modal-icon {
+  color: var(--title-color);
+  font-size: 1.1rem;
+}
+
+.services__modal-info {
+  font-size: var(--small-font-size);
+}
+
+.btn {
+  background-color: #333;
+  border-radius: 0.5rem;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.btn a {
+  color: #fff;
+}
+.btn a:hover {
+  color: #000;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+}
+
+/* Active Modal */
+.active-modal {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* ---------------------------------------------------- */
 .project__img {
-    width: 100%;
-    margin-bottom: 1.25rem;
+  width: 100%;
+  margin-bottom: 1.25rem;
 }
 
 .project__subtitle {
-    font-size: var(--small-font-size);
-    color: var(--text-color);
+  font-size: var(--small-font-size);
+  color: var(--text-color);
 }
 
 .project__title {
-    font-size: var(--h2-font-size);
-    margin-bottom: 1.25rem;
-    margin: .5rem 0 1.25rem;
+  font-size: var(--h2-font-size);
+  margin-bottom: 1.25rem;
+  margin: 0.5rem 0 1.25rem;
 }
 
 .project__button {
-    display: inline-flex;
-    align-items: center;
-    column-gap: .5rem;
-    color: var(--title-color);
-    font-size: var(--small-font-size);
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: var(--title-color);
+  font-size: var(--small-font-size);
 }
 
 .project__button:hover {
-    color: red;
+  color: red;
 }
 
 .project__button i {
-    font-size: 1rem;
-    transition: transform .3s;
+  font-size: 1rem;
+  transition: transform 0.3s;
 }
 
 .project__button:hover i {
-    transform: translateX(.25rem);
-    color: red;
+  transform: translateX(0.25rem);
+  color: red;
+}
+
+@media screen and (max-width: 992px) {
+  .portfolio__container {
+    overflow: initial;
+    grid-template-columns: max-content;
+    column-gap: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+}
+@media screen and (max-width: 576px) {
+  .portfolio__container {
+    grid-template-columns: 1fr;
+  }
+
+  .portfolio__content {
+    padding: 1.5rem;
+  }
+}
+@media screen and (max-width: 350px) {
+  .portfolio__container {
+    grid-template-columns: max-content;
+    column-gap: 3rem;
+  }
+  .portfolio__content {
+    width: 300px;
+    height: 150px;
+  }
+
+  .portfolio__content .icon {
+    display: flex;
+    justify-content: center;
+    height: 130px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.8);
+    opacity: 0;
+    transition: opacity 1s;
+    border-radius: 5px;
+  }
 }
