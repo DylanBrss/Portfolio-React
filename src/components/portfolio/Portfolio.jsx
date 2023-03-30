@@ -14,7 +14,7 @@ const Portfolio = () => {
       <h2 className="section__title">Portfolio</h2>
       <span className="section__subtitle">Travaux personnels</span>
 
-      <div className="portfolio__container container grid">
+      <div className="portfolio__container container grid mb-sm-2">
         <div className="portfolio__content cinerama">
           <Icon
             img={Cinerama}
