@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio-React/static/css/main.ba9bc063.css",
-    "main.js": "/Portfolio-React/static/js/main.6dbd7bcc.js",
+    "main.css": "/Portfolio-React/static/css/main.8ddf033f.css",
+    "main.js": "/Portfolio-React/static/js/main.356a82fe.js",
     "static/media/ThéBootstrap.PNG": "/Portfolio-React/static/media/ThéBootstrap.8f75425731d050477af7.PNG",
     "static/media/KomeWaza.png": "/Portfolio-React/static/media/KomeWaza.93501f18712291043811.png",
     "static/media/Zanzibar.PNG": "/Portfolio-React/static/media/Zanzibar.509e35464594e7dd9b10.PNG",
@@ -9,13 +9,14 @@
     "static/media/TravelTheWorld.PNG": "/Portfolio-React/static/media/TravelTheWorld.d996a821a9b0c251d51f.PNG",
     "static/media/Cinerama.PNG": "/Portfolio-React/static/media/Cinerama.78b2a4a0b1f1c51d6261.PNG",
     "static/media/LaMaisonJungle.png": "/Portfolio-React/static/media/LaMaisonJungle.a2fcb02e5506401822f5.png",
+    "static/media/DigitalAgency.png": "/Portfolio-React/static/media/DigitalAgency.41ebe62d178506479474.png",
     "static/media/Avatar.png": "/Portfolio-React/static/media/Avatar.bdbe7c4cb655ec1295e4.png",
     "index.html": "/Portfolio-React/index.html",
-    "main.ba9bc063.css.map": "/Portfolio-React/static/css/main.ba9bc063.css.map",
-    "main.6dbd7bcc.js.map": "/Portfolio-React/static/js/main.6dbd7bcc.js.map"
+    "main.8ddf033f.css.map": "/Portfolio-React/static/css/main.8ddf033f.css.map",
+    "main.356a82fe.js.map": "/Portfolio-React/static/js/main.356a82fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.ba9bc063.css",
-    "static/js/main.6dbd7bcc.js"
+    "static/css/main.8ddf033f.css",
+    "static/js/main.356a82fe.js"
   ]
 }
