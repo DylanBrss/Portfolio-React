@@ -1,6 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import Cinerama from "../../assets/Cinerama.PNG";
+import DigitalAgency from "../../assets/DigitalAgency.png";
 import LaMaisonJungle from "../../assets/LaMaisonJungle.png";
 import KomeWaza from "../../assets/KomeWaza.png";
 import Zanzibar from "../../assets/Zanzibar.PNG";
@@ -16,6 +17,15 @@ const Portfolio = () => {
       <span className="section__subtitle">Travaux personnels</span>
 
       <div className="portfolio__container container grid mb-sm-2">
+        <div className="portfolio__content digitalagency">
+          <Icon
+            img={DigitalAgency}
+            title="Digital Agency"
+            desc="Création d'un site de base pour une entreprise du digital en ReactJs "
+            techno1="HTML - CSS - ReactJS"
+            link="https://dylanbrss.github.io/Digital-agency/"
+          />
+        </div>
         <div className="portfolio__content lmj">
           <Icon
             img={LaMaisonJungle}

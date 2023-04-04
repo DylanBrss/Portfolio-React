@@ -43,6 +43,14 @@
   justify-content: center;
   color: #fff;
 }
+
+.digitalagency {
+  background: url("../../assets/DigitalAgency.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .lmj {
   background: url("../../assets/LaMaisonJungle.png");
   background-position: center;
