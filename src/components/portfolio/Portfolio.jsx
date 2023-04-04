@@ -39,9 +39,9 @@ const Portfolio = () => {
           <Icon
             img={Cinerama}
             title="Cinerama"
-            desc="Projet sur la formation de développeur Front-End, l'objectif est l'apprentissage de framework VueJs avec l'utilisation de l'API TheMovieDB"
-            techno1="HTML - CSS - Bootstrap - Vue"
-            link="https://dylanbrss.github.io/Cinerama/"
+            desc="Projet ReactJs avec utilisation de l'API TheMovieDB"
+            techno1="HTML - CSS - Bootstrap - ReactJS"
+            link="https://dylanbrss.github.io/cinerama-react/"
           />
         </div>
 
