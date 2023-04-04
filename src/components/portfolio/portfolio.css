@@ -43,6 +43,12 @@
   justify-content: center;
   color: #fff;
 }
+.lmj {
+  background: url("../../assets/LaMaisonJungle.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
 .cinerama {
   background: url("../../assets/Cinerama.PNG");

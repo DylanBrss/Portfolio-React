@@ -1,6 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import Cinerama from "../../assets/Cinerama.PNG";
+import LaMaisonJungle from "../../assets/LaMaisonJungle.png";
 import KomeWaza from "../../assets/KomeWaza.png";
 import Zanzibar from "../../assets/Zanzibar.PNG";
 import ThéBootstrap from "../../assets/ThéBootstrap.PNG";
@@ -15,6 +16,15 @@ const Portfolio = () => {
       <span className="section__subtitle">Travaux personnels</span>
 
       <div className="portfolio__container container grid mb-sm-2">
+        <div className="portfolio__content lmj">
+          <Icon
+            img={LaMaisonJungle}
+            title="La Maison Jungle"
+            desc="Premier projet pour apprendre a coder en ReactJs"
+            techno1="HTML - CSS - ReactJS"
+            link="https://dylanbrss.github.io/La-maison-jungle/"
+          />
+        </div>
         <div className="portfolio__content cinerama">
           <Icon
             img={Cinerama}
