@@ -44,6 +44,13 @@
   color: #fff;
 }
 
+.krystal-net{
+  background: url("../../assets/Krystal-Net.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .digitalagency {
   background: url("../../assets/DigitalAgency.png");
   background-position: center;

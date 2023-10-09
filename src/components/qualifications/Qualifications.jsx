@@ -49,7 +49,7 @@ const Qualifications = () => {
           >
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Développeru Front-End</h3>
+                <h3 className="qualification__title">Développeur Front-End</h3>
                 <span className="qualification__subtitle">Niort - ARINFO</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
@@ -132,12 +132,14 @@ const Qualifications = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  TAGE CRÉATION APPLICATION ANDROID
+                  STAGE CRÉATION SITE INTERNET
                 </h3>
-                <span className="qualification__subtitle">Alltech - Niort</span>
+                <span className="qualification__subtitle">
+                  je-suis-unique - Niort
+                </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2019
+                  2022
                 </div>
               </div>
 
@@ -171,14 +173,12 @@ const Qualifications = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
-                  STAGE CRÉATION SITE INTERNET
+                  STAGE CRÉATION APPLICATION SOUS ANDROID
                 </h3>
-                <span className="qualification__subtitle">
-                  je-suis-unique - Niort
-                </span>
+                <span className="qualification__subtitle">Alltech - Niort</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calendar-alt"></i>
-                  2022
+                  2019
                 </div>
               </div>
 

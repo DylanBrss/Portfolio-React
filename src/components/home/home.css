@@ -94,6 +94,10 @@
     margin-top: -20px;
 }
 
+.home__scroll-button {
+    cursor: default;
+}
+
 .wheel {
     animation: scroll 2s ease infinite;
 }

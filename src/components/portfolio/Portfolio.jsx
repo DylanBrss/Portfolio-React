@@ -8,6 +8,7 @@ import Zanzibar from "../../assets/Zanzibar.PNG";
 import ThéBootstrap from "../../assets/ThéBootstrap.PNG";
 import Travel_Blog from "../../assets/Travel_Blog.PNG";
 import TravelTheWorld from "../../assets/TravelTheWorld.PNG";
+import KrystalNet from "../../assets/Krystal-Net.png";
 import Icon from "./Icon";
 
 const Portfolio = () => {
@@ -17,6 +18,15 @@ const Portfolio = () => {
       <span className="section__subtitle">Travaux personnels</span>
 
       <div className="portfolio__container container grid mb-sm-2">
+        <div className="portfolio__content krystal-net">
+          <Icon
+            img={KrystalNet}
+            title="KrysTal Net"
+            desc="Refonte pendant mon stage de 2022 du site Krystal Net avec les demandes du clients et suivi du dev avec le client pour apporter les modifications necessaire ci cela ne correspondaient pas à ses attentes"
+            techno1="Wordpress"
+            link="https://krystal-net.fr/"
+          />
+        </div>
         <div className="portfolio__content digitalagency">
           <Icon
             img={DigitalAgency}

@@ -24,3 +24,5 @@ yarn-error.log*
 
 #Fichier privé
 Compte EmailJS.txt
+
+/src/components/portfolio-test

@@ -97,7 +97,7 @@ const Services = () => {
                 onClick={() => toggleTab(0)}
                 className="uil uil-times services__modal-close"
               ></i>
-              <h3 className="services__modal-title">UI/UX Designer</h3>
+              <h3 className="services__modal-title">Travailler en équipe</h3>
               <p className="services__modal-description">
                 Travailler en équipe, c'est faire partie d'un groupe d'individus
                 avec lesquels on collabore pour réaliser des projets et
@@ -110,32 +110,7 @@ const Services = () => {
                 <li className="services__modal-service">
                   <i className="uil uil-check-circle services__modal-icon"></i>
                   <p className="services__modal-info">
-                    I develop the user interface.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">Web page development.</p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I create ux element interaction.
-                  </p>
-                </li>
-
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    I position your company brand.
-                  </p>
-                </li>
-                <li className="services__modal-service">
-                  <i className="uil uil-check-circle services__modal-icon"></i>
-                  <p className="services__modal-info">
-                    Design and mockups of productsfor companies.
+                    Projet Travel The World fait avec 2 personnes
                   </p>
                 </li>
               </ul>

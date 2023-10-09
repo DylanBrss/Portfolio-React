@@ -11,7 +11,7 @@ const Data = () => {
           viewBox="0 0 48 48"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
-          class="home__hand"
+          className="home__hand"
         >
           <path
             d="M25.4995 32.0305L31.3495 33.1555L36.1495 8.48051C36.4495 6.83051 35.3995 5.18051 33.8245 4.88051C32.1745 4.58051 30.5995 5.70551 30.2995 7.35551L25.4995 32.0305Z"
@@ -55,18 +55,18 @@ const Data = () => {
           ></path>
         </svg>
       </h1>
-      <h3 className="home__subtitle">Développeur Full-Stack</h3>
+      <h3 className="home__subtitle">Développeur Front-End</h3>
       <p className="home__description">
-        Je suis développeur passionné par le développement web et les
-        nouvelles technologies depuis de nombreuses années. Je suis constamment
-        ouvert à la découverte de nouvelles technologies et j'aspire à continuer
-        sur cette voie.
+        Je suis développeur passionné par le développement web et les nouvelles
+        technologies depuis de nombreuses années. Je suis constamment ouvert à
+        la découverte de nouvelles technologies et j'aspire à continuer sur
+        cette voie.
       </p>
 
       <a href="#contact" className="button button--flex">
         Dite Bonjour
         <svg
-          class="button__icon"
+          className="button__icon"
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"

@@ -11,7 +11,7 @@ const Icon = ({ img, title, desc, techno1, link }) => {
     <div className="Icon_content">
       <div className="icon">
         <span className="services__button" onClick={() => toggleTab(1)}>
-          <i class="bx bx-right-arrow-circle"></i>
+          <i className="bx bx-right-arrow-circle"></i>
         </span>
       </div>
       <div
@@ -30,7 +30,11 @@ const Icon = ({ img, title, desc, techno1, link }) => {
           <p className="services__modal-techno">
             Technologies : <span id="techno1">{techno1}</span>{" "}
           </p>
-          <button className="btn"><a href={link} target="_blank" rel="noopener noreferrer">Live site</a></button>
+          <button className="btn">
+            <a href={link} target="_blank" rel="noopener noreferrer">
+              Live site
+            </a>
+          </button>
         </div>
       </div>
     </div>
